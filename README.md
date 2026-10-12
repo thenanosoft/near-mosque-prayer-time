@@ -6,4 +6,4 @@ Landing page and privacy policy for the **Near Mosque Prayer Time** Android app 
 - Privacy policy: https://thenanosoft.github.io/near-mosque-prayer-time/privacy-policy.html
 
 Plain static HTML/CSS served by GitHub Pages from the `main` branch root. No build step.
-Contact: hi@writon.co
+Contact: farhan987ellahi@gmail.com
