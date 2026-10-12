@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – Near Mosque Prayer Time</title>
+<meta name="description" content="Privacy policy for the Near Mosque Prayer Time Android app by The Nanosoft.">
+<meta name="theme-color" content="#0b6e5b">
+<link rel="canonical" href="https://thenanosoft.github.io/near-mosque-prayer-time/privacy-policy.html">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="assets/icon-192.png" alt="" width="32" height="32">Near Mosque</a>
+    <nav><a href="./">Home</a><a href="mailto:hi@writon.co">Contact</a></nav>
+  </div>
+</header>
+
+<main class="doc">
+<h1>Privacy Policy</h1>
+<p class="meta">Near Mosque Prayer Time (Android app <code>com.thenanosoft.nearmosque</code>) · by The Nanosoft · Effective 12 October 2026</p>
+
+<h2>Summary</h2>
+<p>Near Mosque Prayer Time has no accounts, no ads, no analytics and no tracking. We (The Nanosoft) do not run any server for this app, and we do not receive, collect or store your personal data. Everything you set up in the app stays on your phone.</p>
+
+<h2>Location</h2>
+<p>If you allow it, the app reads your phone's location <strong>only while the app is open</strong>, for two purposes:</p>
+<ul>
+  <li>to calculate prayer times for where you are, which is done entirely on your phone, and</li>
+  <li>to find mosques near you.</li>
+</ul>
+<p>The app never accesses location in the background. Location access is optional. You can instead search for your city or type in coordinates, and the app works fully either way. You can withdraw location permission at any time in your phone's settings.</p>
+
+<h2>What is sent off your phone, and to whom</h2>
+<p>The app talks directly to public OpenStreetMap services over encrypted HTTPS connections. It sends only what each request needs:</p>
+<div class="table-scroll">
+<table>
+  <tr><th>When</th><th>What is sent</th><th>Sent to</th></tr>
+  <tr><td>You open the Mosques tab, change the radius or refresh</td><td>The coordinates of your chosen location and the search radius</td><td>OpenStreetMap Overpass API (<code>overpass-api.de</code>, or the mirror <code>overpass.kumi.systems</code> if it is busy)</td></tr>
+  <tr><td>You use your phone's location, so the app can show the name of your area (e.g. "Karachi, Pakistan")</td><td>Your coordinates, rounded to about 100 metres</td><td>OpenStreetMap Nominatim (<code>nominatim.openstreetmap.org</code>)</td></tr>
+  <tr><td>You search for a city</td><td>The text you typed</td><td>OpenStreetMap Nominatim (<code>nominatim.openstreetmap.org</code>)</td></tr>
+</table>
+</div>
+<p>As with any internet request, these services also receive your device's IP address and an app identifier ("NearMosquePrayerTime/1.0"). They process requests under their own policies. The <a href="https://osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap Foundation Privacy Policy</a> applies to Nominatim and overpass-api.de. We do not control these services, and we receive no data from them other than the search results shown in the app.</p>
+<p>When you tap <em>Directions</em>, the mosque's position is handed to a maps app or browser of your choice, which applies its own privacy policy.</p>
+
+<h2>What stays on your phone</h2>
+<ul>
+  <li>Your settings (calculation method, reminders, theme and so on)</li>
+  <li>Your chosen location</li>
+  <li>The mosques you save and the jamaat times you type in</li>
+  <li>A cache of mosque search results, kept for up to 24 hours to avoid repeat requests</li>
+</ul>
+<p>This data is stored in the app's private storage on your device and is never sent to us. If you use Android's own device backup, Android may include it in your personal backup under Google's terms. Uninstalling the app or clearing its storage deletes all of it.</p>
+
+<h2>Notifications and alarms</h2>
+<p>If you turn on reminders, the app asks for permission to show notifications and schedules them with your phone's own notification system. If you turn on "exact timing", it asks for permission to use exact alarms. It also restores your scheduled reminders after the phone restarts. None of this involves sending data anywhere.</p>
+
+<h2>Permissions used</h2>
+<ul>
+  <li><strong>Location (approximate and precise)</strong>: only while the app is in use, for the purposes above.</li>
+  <li><strong>Internet</strong>: for the OpenStreetMap requests listed above.</li>
+  <li><strong>Notifications</strong>: only if you turn on reminders.</li>
+  <li><strong>Exact alarms</strong>: only if you turn on exact timing.</li>
+  <li><strong>Run at startup</strong>: to restore your reminders after a restart.</li>
+</ul>
+
+<h2>Children</h2>
+<p>The app is intended for a general audience. It does not knowingly collect personal information from anyone, including children.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the new version will be published at this address with a new effective date.</p>
+
+<h2>Contact</h2>
+<p>The Nanosoft · <a href="mailto:hi@writon.co">hi@writon.co</a></p>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 The Nanosoft · <a href="./">Near Mosque Prayer Time</a></span>
+    <span>Mosque data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> (ODbL)</span>
+  </div>
+</footer>
+</body>
+</html>
